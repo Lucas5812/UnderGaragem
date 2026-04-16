@@ -71,33 +71,33 @@ usouAcao = False
 
 #Fontes
 fonte = pygame.font.SysFont('arial', 30, True, False)
-fonteCustomizada = pygame.font.Font('assets/fonte2.ttf', 23)
-fonteDano = pygame.font.Font('assets/hachicro.TTF', 35)
+fonteCustomizada = pygame.font.Font('UnderGaragem\\PCS\\assets\\fonte2.ttf', 23)
+fonteDano = pygame.font.Font('UnderGaragem\\PCS\\assets\\hachicro.TTF', 35)
 fonteBatalha = pygame.font.SysFont('comicsans', 20, True, False)
 pygame.display.set_caption('Undergaragem')
 
 #Imagens
-gameoverImg = pygame.image.load('assets/sprites/gameover.png')
+gameoverImg = pygame.image.load('UnderGaragem\\PCS\\assets\\sprites\\Gameover.png')
 gameoverImg = pygame.transform.scale(gameoverImg, (600, 300))
-icon = pygame.image.load('assets/sprites/alma.png')
+icon = pygame.image.load('UnderGaragem\\PCS\\assets\\sprites\\alma.png')
 pygame.display.set_icon(icon)
 #WilsonIddle = pygame.image.load('assets/sprites/Wilson.png')
-wilsonsheet = pygame.image.load('assets/sprites/wilsonsheet.png')
-tituloMenu = pygame.image.load('assets/sprites/UNDERGARAGEM.png')
+wilsonsheet = pygame.image.load('UnderGaragem\PCS\\assets\\sprites\\wilsonsheet.png')
+tituloMenu = pygame.image.load('UnderGaragem\PCS\\assets\\sprites\\UNDERGARAGEM.png')
 tituloMenu = pygame.transform.scale(tituloMenu, (560, 500))
-sprite_sheet = pygame.image.load('assets/sprites/ataquesheet3.png')
+sprite_sheet = pygame.image.load('UnderGaragem\\PCS\\assets\\sprites\\ataquesheet3.png')
 animandoWilson = True
 
 
 #Sons/Músicas
-musicaFundo = pygame.mixer.music.load("assets/sounds/[Tremba's Contract].mp3")
+musicaFundo = pygame.mixer.music.load("UnderGaragem\\PCS\\assets\\sounds\\[Tremba's Contract].mp3")
 pygame.mixer.music.set_volume(0.6)
 pygame.mixer.music.play(-1)
-dano_snd = pygame.mixer.Sound('assets/sounds/dano.mp3')
-parry_snd = pygame.mixer.Sound('assets/sounds/parry.mp3')
-clica_som = pygame.mixer.Sound('assets/sounds/snd_select.mp3')
-cura_som = pygame.mixer.Sound('assets/sounds/snd_heal.wav')
-transicaoSom = pygame.mixer.Sound('assets/sounds/transicao.ogg')
+dano_snd = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\dano.mp3')
+parry_snd = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\parry.mp3')
+clica_som = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\snd_select.mp3')
+cura_som = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\snd_heal.wav')
+transicaoSom = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\transicao.ogg')
 tocouTransicao = False
 tocouMenu = False
 tocouFimPacifista = False
