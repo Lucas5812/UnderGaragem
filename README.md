@@ -2,6 +2,9 @@
 AU de undertale/deltarune criada usando a biblioteca pygame <br>
 Atenção: Antes de usar esse código, tem que instalar a biblioteca pygame com o seguinte comando no terminal: python3 -m pip install pygame <br>
 Imagens do jogo: <br>
+##Instruções para baixar e jogar<br>
+Atualmente o sistema apenas utiliza os caminhos relativos, para conseguir jogar é necessário baixar e abrir a pasta nomeada de "undergaragem-baixar-e-jogar" externa no VSCode e depois iniciar o Undergaragem.py
+<br>
 
 <img width="627" height="484" alt="image" src="https://github.com/user-attachments/assets/a866140d-cf4f-41b3-ba08-af70a137299b"/> <hr>
 <img width="633" height="505" alt="image" src="https://github.com/user-attachments/assets/5b5a271c-5521-44c9-9706-c81ba9eac0fb"/> <hr>
