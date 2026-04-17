@@ -227,12 +227,12 @@ while True:
             if evento.type == KEYDOWN:
                 if evento.key == K_DOWN and alma.rect.colliderect(cos.botaoIniciar):
                     cos.y += 45
-                    passaAcao = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\snd_squeak.mp3')
+                    passaAcao = pygame.mixer.Sound('UnderGaragem-Baixar-e-jogar\\PCS\\assets\\sounds\\snd_squeak.mp3')
                     passaAcao.set_volume(0.3)
                     passaAcao.play()
                 if evento.key == K_UP and alma.rect.colliderect(cos.botaoCreditos):
                     cos.y -= 45
-                    passaAcao = pygame.mixer.Sound('UnderGaragem\\PCS\\assets\\sounds\\snd_squeak.mp3')
+                    passaAcao = pygame.mixer.Sound('UnderGaragem-Baixar-e-jogar\\PCS\\assets\\sounds\\snd_squeak.mp3')
                     passaAcao.set_volume(0.3)
                     passaAcao.play()
                 if evento.key == K_z:
@@ -274,7 +274,7 @@ while True:
     '''    
     while cos.telainicial:
             janela.corFundo()
-            janela.escreveTexto('Bem vindo ao undergaragem, aperte qualquer tecla para iniciar o jogo', cos.fonteCustomizada, 'white', (janela.tela.get_width()/2, janela.tela.get_height()/2))
+            janela.escreveTexto('Bem vindo ao UnderGaragem-Baixar-e-jogar, aperte qualquer tecla para iniciar o jogo', cos.fonteCustomizada, 'white', (janela.tela.get_width()/2, janela.tela.get_height()/2))
             for evento in eventos:
                 if evento.type == KEYDOWN:
                     cos.telainicial = False
@@ -606,7 +606,7 @@ while True:
         while janela.telaAtual == 'gameover':
             if not tocouGameOver:
                 pygame.mixer.music.fadeout(280)
-                cos.musicaFundo = pygame.mixer.music.load('UnderGaragem\\PCS\\assets\\sounds\\gameovertheme.mp3')
+                cos.musicaFundo = pygame.mixer.music.load('UnderGaragem-Baixar-e-jogar\\PCS\\assets\\sounds\\gameovertheme.mp3')
                 pygame.mixer.music.set_volume(0.45)
                 pygame.mixer.music.play(-1)
                 tocouGameOver = True
@@ -654,7 +654,7 @@ while True:
                 
     while janela.telaAtual == 'FimdaGenocida':
         if not cos.tocouGenocida:
-            cos.musicaFundo = pygame.mixer.music.load("UnderGaragem\\PCS\\assets\\sounds\\[Tremba's Contract].mp3")
+            cos.musicaFundo = pygame.mixer.music.load("UnderGaragem-Baixar-e-jogar\\PCS\\assets\\sounds\\[Tremba's Contract].mp3")
             pygame.mixer.music.set_volume(0.6)
             pygame.mixer.music.play(-1)
             cos.tocouGenocida = True
